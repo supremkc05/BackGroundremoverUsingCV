@@ -10,7 +10,7 @@ matplotlib
 pillow
 ipywidgets
 You can install the required packages using the following command:
-pip install opencv-python numpy matplotlib pillow ipywidgets
+code: pip install opencv-python numpy matplotlib pillow ipywidgets
 
 Usage
 Open the Project_File.ipynb notebook in Jupyter Notebook or JupyterLab.
@@ -24,9 +24,9 @@ Run the third cell to create an upload button and define the on_upload_change ev
 Upload an image using the upload button. The notebook will process the image to remove the background and display the result.
 
 Functions
-remove_background(image)
+code: remove_background(image)
 This function takes an image as input and removes the background using the GrabCut algorithm.
 
-on_upload_change(change)
+code: on_upload_change(change)
 This function handles the image upload event, processes the uploaded image to remove the background, and displays the result.
 
